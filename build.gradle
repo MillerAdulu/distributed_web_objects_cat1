@@ -19,6 +19,7 @@ ext {
 dependencies {
 	implementation 'org.springframework.cloud:spring-cloud-starter-openfeign'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+	implementation group: 'io.github.openfeign', name: 'feign-httpclient', version: '10.4.0'
 }
 
 dependencyManagement {
